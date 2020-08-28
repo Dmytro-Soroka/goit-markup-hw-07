@@ -1,1 +1,11 @@
-
+@import "./utils/variables";
+@import "./base/normalize";
+@import "./base/common";
+@import "./layouts/header";
+@import "./layouts/hero";
+@import "./layouts/modal-window";
+@import "./base/section-title";
+@import "./components/skills";
+@import "./components/command";
+@import "./components/clients";
+@import "./layouts/footer";
