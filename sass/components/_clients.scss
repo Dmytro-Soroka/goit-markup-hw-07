@@ -36,4 +36,9 @@
 .clients-link:focus {
   fill: $accent-text-color;
   border: 1px solid #2196f3;
+
+  transition-property: border, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0ms;
 }

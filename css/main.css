@@ -640,6 +640,14 @@ ul {
   background-color: #2196f3;
   border-radius: 50%;
   fill: #ffffff;
+  -webkit-transition-property: background-color, fill;
+  transition-property: background-color, fill;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition-delay: 0ms;
+          transition-delay: 0ms;
 }
 
 .command-icon {
@@ -735,6 +743,14 @@ ul {
 .clients-link:focus {
   fill: #2196f3;
   border: 1px solid #2196f3;
+  -webkit-transition-property: border, fill;
+  transition-property: border, fill;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition-delay: 0ms;
+          transition-delay: 0ms;
 }
 
 .footer {
