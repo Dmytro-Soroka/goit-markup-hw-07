@@ -35,15 +35,15 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0ms;
-}
 
-.command-item-icon:hover,
-.command-item-icon:focus {
-  height: 44px;
-  width: 44px;
-  background-color: $accent-text-color;
-  border-radius: 50%;
-  fill: $special-text-color;
+  &:hover,
+  &:focus {
+    height: 44px;
+    width: 44px;
+    background-color: $accent-text-color;
+    border-radius: 50%;
+    fill: $special-text-color;
+  }
 }
 
 .command-icon {

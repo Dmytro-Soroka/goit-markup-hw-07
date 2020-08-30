@@ -25,7 +25,7 @@
   font-size: 16px;
   line-height: 1.625x;
   letter-spacing: 0.03em;
-  color: @title-text-color;
+  color: $title-text-color;
 
   height: 38px;
   padding-top: 6px;
@@ -45,8 +45,8 @@
 
 .portfolio-buttons-title:hover,
 .portfolio-buttons-title:focus {
-  color: @special-text-color;
-  background-color: @accent-text-color;
+  color: $special-text-color;
+  background-color: $accent-text-color;
 }
 
 /*portfolio*/
@@ -87,7 +87,7 @@
 }
 
 .portfolio a {
-  color: var(--primary-taxt-color);
+  color: $primary-taxt-color;
   text-decoration: none;
 }
 
@@ -134,7 +134,7 @@
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: @title-text-color;
+  color: $title-text-color;
   margin-bottom: 4px;
 }
 
@@ -150,5 +150,5 @@
   font-size: 18px;
   line-height: 1.556;
   letter-spacing: 0.03em;
-  color: @special-text-color;
+  color: $special-text-color;
 }
